@@ -58,8 +58,7 @@ nav.children[4].textContent = siteContent.nav["nav-item-5"];
 nav.children[5].textContent = siteContent.nav["nav-item-6"];
 
 const navLink = document.querySelectorAll('nav a');
-const navText = Object.values(siteContent.nav);
-navLink.forEach((link, idx) => {
+navLink.forEach((link) => {
   link.classList.add('italic');
 });
 
